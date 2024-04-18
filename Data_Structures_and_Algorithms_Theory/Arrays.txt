@@ -1,0 +1,55 @@
+ ----------- Arrays  -----------
+
+ Contiguous Block of Data
+
+ 1. Static Arrays:
+
+ 	 - These kinds of arrays are present in languages such as Java, C, C++, etc
+ 	 - In Python, or JavaScript, the default arrays are Dynamic Arrays
+
+ 	 - Fixed Size (Size is stated when initializing the array) *** Only way of adding more space to a Static Array is to copy the array and create a new one with more data, which takes O(n) time and O(n) space ***
+
+ 	 - Reading data at a specific location takes - O(1) time 
+ 	 - Writing data at a specific location takes - O(1) time
+ 	 - Searching for a specific value/item in the array takes - O(n) time
+ 	 - Appeding a value/item at the begining of the array takes - O(n) time
+ 	 - Appending a value/item between to other values in the Array takes - O(n) time
+ 	 - Removing a value/item at the end of the array takes - O(1) time
+ 	 - Removing a value/item at the end of the array takes - O(n) time
+
+ 	 Related problems:
+
+     1. Leet Code - 26. Remove Duplicates from Sorted Array (https://leetcode.com/problems/remove-duplicates-from-sorted-array/submissions/1236075381/)
+     2. leet Code - 27. Remove Element (https://leetcode.com/problems/remove-element/description/)
+
+
+
+ 2. Dynamic Arrays:
+
+ 	 - Variable Size (Adding indefinite more values/items to the array is possible) takes O(1) amortized time (every time the Array runs out of spaces it copies the array and creats another array with double the size of the original)
+
+ 	 - Reading data at a specific location takes - O(1) time 
+ 	 - Writing data at a specific location takes - O(1) time
+ 	 - Searching for a specific value/item in the array takes - O(n) time
+ 	 - Appeding a value/item at the begining of the array takes - O(n) time
+ 	 - Appending a value/item between to other values in the Array takes - O(n) time
+ 	 - Removing a value/item at the end of the array takes - O(1) time
+ 	 - Removing a value/item at the end of the array takes - O(n) time
+
+
+
+ 3. Stacks:
+
+ 	Stacks can be implemented by using Dynamic arrays (Lists in Python, ArrayLists in Java)
+
+ 	LIFO Data Structure or Last In First Out (The Last element that was appended to you Stack will be the first element that will be removed or "popped")
+
+ 	 - Push (add element to the top of the stack ) takes - O(1) time
+ 	 - Pop  (remove an element from the end of the stack) takes - O(1) time
+ 	 - Peek/Top (look at the element at the end of the stack) takes - O(1) time
+
+
+
+
+
+

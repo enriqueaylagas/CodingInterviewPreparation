@@ -1,0 +1,41 @@
+----------- Linked Lists -----------
+
+Similar to Arrays, Linked lists are collections of data (in this case "Nodes") where you can store elements such as Strings, Integers, Objects,etc
+The difference between Arrays and Linked Lists is that Arrays are contiguous and Linked Lists are not
+Linked Lists are made of Nodes that have a "Value" and a "Pointer" which conects them to the next Node but each node can be anywhere in memory
+
+There are different types of Linked Lists:
+
+1. Singly Linked List:
+	*** Usually Linked Lists have references to the first Node (Head) and to the last node (Tail)***
+
+	 - Adding a Node to the beginning of the linked list  - O(1) time
+	 - Adding a Node to the end of the linked list  - O(1) time
+	 - Removing a Node to the beginning of the linked list  - O(1) time
+	 - Removing a Node to the end of the linked list  - O(1) time
+	 - Removing a specific Node that is not the Head or the Tail - O(n) time
+	 - Traversing the Linked list - O(n) time
+	 - Searching for a specific Node - O(n) time
+
+
+2. Doubly Linked List:
+	
+	*** These are the same as Singly Linked Lists but instead of having just one pointer to the next Node, it has another pointer to the previous node so that way you can also traverse backwards in the Linked List ***
+
+	 - Adding a Node to the beginning of the linked list  - O(1) time
+	 - Adding a Node to the end of the linked list  - O(1) time
+	 - Removing a Node to the beginning of the linked list  - O(1) time
+	 - Removing a Node to the end of the linked list  - O(1) time
+	 - Removing a specific Node that is not the Head or the Tail - O(n) time
+	 - Traversing the Linked list - O(n) time
+	 - Searching for a specific Node - O(n) time
+
+Linked Lists can be used as Queues as-well:
+
+*. Queues:
+
+	Queues are similar to Stacks in a way that they are used in specific scenarios, in contrary of the Stacks LIFO protocol, Queues are First in First Out Data Structures (think of spotify Queues, first song you put in the Queue will be the next song to be played)
+
+	 - Enqueuing (appending) will add an element to the end of the List - O(1)
+	 - Dequeuing will remove the first element of the list - O(1)
+	 
